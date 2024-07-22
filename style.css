@@ -7,7 +7,7 @@
     position: sticky;
     top:0;
     text-align: center;
-  }
+}
 
 .topnav {
     list-style-type: none;
@@ -59,10 +59,13 @@
 }
 
 fieldset {
+    display: flex;
     border-radius: 30px;
     padding: 10%;
-    width: 100%;
+    width: 50%;
     box-shadow: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 textarea {
     width: 100%;
@@ -100,6 +103,13 @@ textarea {
     }
 }
 
-div {
-    margin: 10px;
+section div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 20rem;
+    margin: 3rem;
+    border: solid 1px;
 }
