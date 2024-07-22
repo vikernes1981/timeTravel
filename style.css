@@ -52,7 +52,16 @@ ul.topnav li a:hover:not(.active) {
     }
 }
 
-
+fieldset {
+    border-radius: 30px;
+    padding: 10%;
+    width: 100%;
+    box-shadow: 20px;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+}
 
 .gallery-container {
     font-family: Arial, sans-serif;
