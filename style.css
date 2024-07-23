@@ -6,7 +6,9 @@
 
 #container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 #contact {
     display: block;
@@ -35,7 +37,7 @@ textarea {
 }
 
 
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+/* @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 .header_image {
     display: flex;
@@ -76,7 +78,7 @@ textarea {
     justify-content: space-between;
     background-color: white;
     background: linear-gradient(to left, #f46b45, #eea849);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
     color: #fff;
     height: 50px;
     padding: 1em;
@@ -235,10 +237,7 @@ textarea {
 }
 
 .item {
-    /* background: #f1e9f7; */
-    /* border: 3px solid #a579cc; */
-    /* color: #a579cc; */
     padding: 1rem;
     font-size: 1rem;
     text-align: center;
-}
+} */
